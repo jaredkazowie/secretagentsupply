@@ -1,0 +1,160 @@
+body{
+ margin: 0px;
+ font-size: 18px;
+ justify-content: center;
+}
+
+.bodycenter{
+  border: 5px solid green;
+  width: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*header CSS should be independent of the rest*/
+.header{
+  font-family: Helvetica;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  width: 960px;
+  background-color: black;
+  position: fixed;
+  padding: .66rem;
+  color: white;
+}
+.header img{
+  height: 1.5rem;
+  border: 10px solid green;
+}
+
+.mainlogo{
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  height:25rem;
+  border: 10px solid purple;
+  margin-top: 2.32rem;
+  font-family: helvetica;
+  font-weight: bold;
+  color:white;
+  align-items: center;
+
+
+}
+.maintext{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 20rem;
+  border: 10px dashed white;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+.maintext h2{
+  border: 5px dashed red;
+  font-size: 1rem;
+}
+.maintext h1{
+  border: 5px dashed red;
+  font-size: 2rem;
+}
+
+
+#logo{
+  height: 1.5rem;
+  width: auto;
+}
+
+
+
+
+.stripe{
+  background-color: firebrick;
+  flex-grow: 1;
+  color: white;
+  border: 10px solid blue;
+  display: flex;
+  justify-content: space-between;
+  padding-top:.75rem;
+  padding-bottom: .75rem;
+
+}
+.stripe a{
+  color: white;
+  width: 100%;
+  border: 5px solid black;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.productgrid{
+  display: flex;
+  border: 10px dashed blue;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.prodcontain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  color: white;
+  width: 30%;
+  padding-top: 2rem;
+
+}
+.prodcontain h5{
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 1rem;
+  border: 5px solid red;
+}
+.prodcontain img{
+  height: 9rem;
+  border: 5px dashed purple
+}
+
+.locatehours{
+  display: flex;
+  border: 10px solid red;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  border: 10px solid green;
+  width: 35%;
+
+}
+.info h5{
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.info h4{
+  text-align: left;
+  border: 5px solid purple;
+}
+.foot{
+  display:flex;
+  text-align: left;
+  background-color: black;
+  color:white;
+  height: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
