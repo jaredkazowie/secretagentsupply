@@ -2,46 +2,63 @@ body{
  margin: 0px;
  font-size: 18px;
  justify-content: center;
+/* background-color: black; */
 }
 
 .bodycenter{
   border: 5px solid green;
   width: 960px;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 /*header CSS should be independent of the rest*/
+.headercontain{
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+/*  position: fixed; */
+}
+
 .header{
   font-family: Helvetica;
   font-size: 1rem;
   display: flex;
   align-items: center;
-  width: 960px;
-  background-color: black;
-  position: fixed;
   padding: .66rem;
   color: white;
+  max-width: 960px;
+  border: 10px dashed blue;
+  margin: auto;
 }
 .header img{
   height: 1.5rem;
-  border: 10px solid green;
+  padding-right: .5rem;
+  padding left: .5rem;
+/*  border: 10px solid green;*/
 }
 
 .mainlogo{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
   height:25rem;
   border: 10px solid purple;
-  margin-top: 2.32rem;
+  /*  margin-top: 2.32rem; */
   font-family: helvetica;
   font-weight: bold;
   color:white;
   align-items: center;
+  width: 100%;
+}
 
+.maintextontain{
+  max-width: 960px;
 
 }
+
 .maintext{
   display: flex;
   flex-direction: column;
@@ -66,24 +83,27 @@ body{
   width: auto;
 }
 
-
-
+.stripewidth{
+  width: auto;
+  height: 5rem;
+  background-color: firebrick;
+}
 
 .stripe{
-  background-color: firebrick;
-  flex-grow: 1;
+
   color: white;
-  border: 10px solid blue;
+/*--  border: 10px solid blue; --*/
   display: flex;
+  margin: auto;
   justify-content: space-between;
   padding-top:.75rem;
   padding-bottom: .75rem;
+  max-width: 960px;
 
 }
 .stripe a{
   color: white;
-  width: 100%;
-  border: 5px solid black;
+/*--  border: 5px solid black; --*/
   text-decoration: none;
   font-weight: bold;
 
@@ -149,12 +169,22 @@ body{
   text-align: left;
   border: 5px solid purple;
 }
+
+.footcontain{
+  max-width: auto;
+  background-color: black;
+  justify-content: center;
+}
 .foot{
   display:flex;
   text-align: left;
-  background-color: black;
+/*  background-color: black; */
   color:white;
   height: 5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  max-width: 960px;
+
+  border: 10px dashed white;
+  margin: auto;
 }
