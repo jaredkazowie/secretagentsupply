@@ -43,8 +43,8 @@ body{
 .mainlogo{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
-  background-repeat: no-repeat;
-  height:25rem;
+  height: 25rem;
+  background-size: cover;
   border: 10px solid purple;
   /*  margin-top: 2.32rem; */
   font-family: helvetica;
